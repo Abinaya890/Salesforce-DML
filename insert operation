@@ -1,0 +1,20 @@
+public class sample {
+    public static void apexsample()
+    {
+      lead l = new lead();
+      l.lastname='abi';
+        l.City='cbe';
+       l.Company='lala';
+        l.Phone='876833738';
+        system.debug(l);
+        insert l;
+        
+    }
+
+    public static void abc()
+    {
+     contact con = new contact(lastname ='abinaya', phone='987654321');
+        system.debug(con);
+        insert con;
+    }
+}
