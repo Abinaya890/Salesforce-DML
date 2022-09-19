@@ -8,3 +8,9 @@ public class sales {
         }
      update ac;
     }
+
+
+
+
+----------------------------------------------
+sales.acc();
