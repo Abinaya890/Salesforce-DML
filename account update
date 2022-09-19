@@ -1,0 +1,10 @@
+public class sales {
+    public static void acc(){
+       list<account> ac = [SELECT Id, Name, AnnualRevenue FROM  Account where AnnualRevenue != null];
+        for(account a:ac){
+            a.Name=a.Name + 'Coimbatore';
+            
+            system.debug(a.name +  ' coimbatore');  
+        }
+     update ac;
+    }
