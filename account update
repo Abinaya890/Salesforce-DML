@@ -7,6 +7,16 @@ public class sales {
             system.debug(a.name +  ' coimbatore');  
         }
      update ac;
+     }
+     public static void annual()
+    {
+      list<account> ac = [SELECT Id, Name, AnnualRevenue FROM  Account where AnnualRevenue = null];
+        for(account a:ac){
+        a.AnnualRevenue =  4326;
+   
+        }
+     update ac;
+    }
     }
 
 
@@ -14,3 +24,5 @@ public class sales {
 
 ----------------------------------------------
 sales.acc();
+
+
