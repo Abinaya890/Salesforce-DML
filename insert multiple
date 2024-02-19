@@ -23,6 +23,6 @@ public class dml1 {
         
             opty.add(opty1);
             }
-        
+        insert opty;
     }
 }
